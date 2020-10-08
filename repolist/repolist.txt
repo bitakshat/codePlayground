@@ -1,0 +1,21 @@
+#1) To list Public repositories for a user, run the following command in a single line
+curl -X GET -u <UserName>:<Genrated-Token> https://api.github.com/users/<user-name>/repos | grep -w clone_url
+
+#2) Create a Personal Repository
+curl -X POST -u <UserName>:<Generated-Token>https://api.github.com/user/repos -d “{\”name\”: \”Demo_Repo\”}”
+
+In the above command name is a parameter. Let’s look at some other parameters that can be used while creating personal user repositories.
+
+curl -X POST -u <UserName>:<Generated-Token>https://api.github.com/user/repos -d “{\”name\”: \”Demo_Repo\”,\”description\”: \”This is first repo through API\”,\”homepage\”: \”https://github.com\”,\”public\”: \”true\”,\”has_issues\”: \”true\”,\”has_projects\”:\”true\”,\”has_wiki\”: \”true\”}”
+
+#3) Rename the Repository
+curl -X POST -u <UserName>:<Generated-Token> -X PATCH -d “{\”name\”:\”<NewRepoName>\”}” https://api.github.com/repos/<user-name>/<OldRepoName>
+
+#4) Delete the Repository
+curl -X DELETE -u <UserName>:<Generated-Token>https://api.github.com/repos/<user-name>/<reponame>
+
+#### Collaborators ####
+#1) List Collaborators for a Repository
+curl -X GET -u <UserName>:<Genrated-Token> https://api.github.com/repos/<user-name>/<repo-name>/vcollaborators | grep -w login
+
+
