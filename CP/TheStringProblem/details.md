@@ -4,19 +4,19 @@ Bob's crush's name starts with a vowel. That's the reason Bob loves vowels too m
 ## Output
 For each test case, print "lovely string" or "ugly string"  (without quotes)  according to the definition of Bob.
 
-## Constraints
-string contains only lowercase and uppercase Latin letters. 
-1 <= T <= 100
-1 <= len(S) <= 100000
+## Constraints<br/>
+string contains only lowercase and uppercase Latin letters.<br/>
+1 <= T <= 100<br/>
+1 <= len(S) <= 100000<br/>
 ---
-### Sample Input
-3					
-omahgotuRuLob
-OmAhgotUrulobEI
-aeKORONAoiBATCHu
+### Sample Input<br/>
+3<br/>					
+omahgotuRuLob<br/>
+<br/>OmAhgotUrulobEI<br/>
+aeKORONAoiBATCHu<br/>
 
 **Sample Output** 
-ugly string
-lovely string
-lovely string
+ugly string<br/>
+lovely string<br/>
+lovely string<br/>
 
