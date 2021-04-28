@@ -10,7 +10,7 @@ You have to perform the above operations to convert the integer from k to m and 
 First-line contains the number of test cases T.<br/>
 The next T line contains three space-separated integers k, m and n<br/>
 ## Output
-Print minimum number of steps as output in a new line for each test case.<br/>
+Print minimum number of steps as output in a new line for each test case.
 ##Constraints
 1 <= T <= 10^4
 0 <= k,m,n <=10^9
