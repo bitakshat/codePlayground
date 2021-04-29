@@ -3,8 +3,8 @@
 
 int main() {
     int t;
-    char VOVEL_UPPERCASE[5] = { 'A', 'E', 'I', 'O', 'U' };
-    char VOVEL_LOWERCASE[5] = { 'a', 'e', 'i', 'o', 'u' };
+    char VOWEL_UPPERCASE[5] = { 'A', 'E', 'I', 'O', 'U' };
+    char VOWEL_LOWERCASE[5] = { 'a', 'e', 'i', 'o', 'u' };
     std::cin >> t;
 
     for (int i = 0; i < t; i++) {
@@ -19,7 +19,7 @@ int main() {
         int size = sizeof(CA) / sizeof(CA[0]);
         for (int x = 0; x < size; x++) {
             for (int y = 0; y < 5; y++) {
-                if (CA[x] == VOVEL_UPPERCASE[y] || CA[x] == VOVEL_LOWERCASE[y]) {
+                if (CA[x] == VOWEL_UPPERCASE[y] || CA[x] == VOWEL_LOWERCASE[y]) {
                     BA[y] += 1;
                 }
             }
