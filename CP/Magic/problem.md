@@ -13,8 +13,8 @@ Next line contains N space separated integers Ak , 0 < k < N.
 Print a single line containing one integer, the first array index of the smallest element he CAN remove, and -1 if there is no such element that he can remove!
 
 ## Constraints:
-1 <= N <= <code>10<sup>5</sup</code>
-0 <= <code>A<sub>k</sub></code> <= <code>10<sup>9</sup</code>
+1 <= N <= <code>10<sup>5</sup></code>
+0 <= <code>A<sub>k</sub></code> <= <code>10<sup>9</sup></code>
 
 ###### Sample Input:
 5
