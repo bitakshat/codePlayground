@@ -7,10 +7,14 @@ Advanced Web Designs: Three.js
 - vitejs
 
 ### Installation and Development
-To install dependencies run
+Install Dependencies
 ```
 npm install vite
 npm install three
+```
+Initialize Project
+``` 
+npm init @vitejs/app
 ```
 Run 
 ```
