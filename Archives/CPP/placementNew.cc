@@ -9,6 +9,11 @@ struct Students {
 };
 
 int main() {
+	
+    // buffer on stack : default
+    Students x1 = new Students("tuv", 30, 55);
+
+    // using placement new
     // method 1 : for multiple objects
     char *buffer = new char[10 * sizeof(Students)];
     Students *s1 = new (&buffer[0]) Students("abc", 20, 69);
