@@ -1,1 +1,1 @@
-## CP and Archives
+## Code Archives and Competitive Programming
