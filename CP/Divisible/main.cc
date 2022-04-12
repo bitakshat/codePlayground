@@ -12,8 +12,7 @@ int main(void) {
     std::stringstream ss;
     // creating array
     for (int i = 0; i < size; i++) {
-        std::cin >> arr[i]; 
-    }
+        std::cin >> arr[i];     }
 
     // iteration for first half
     for (int i = 0; i < size/2; i++) {
