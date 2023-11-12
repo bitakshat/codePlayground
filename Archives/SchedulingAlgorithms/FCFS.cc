@@ -77,24 +77,21 @@ void fcfs(int *bt, int *at, int size, int *pid) {
     }
 
     print_table(bt, at, tat, wt, rt, size);
-    
-    std::cout << '\n';
-    std::cout << '\n';
 
-    puts("******** GANTT CHART ********");
-
+    std::cout << "\n\n";
+    puts("\t\t******** GANTT CHART ********\t\t");
+    std::cout << "\n\n";
     print_gantt_chart(bt, at, tat, size, pid);
     
-    std::cout << '\n';
-    std::cout << "Average Turn Around Time: " << avg_tat / size << "ms" << '\n';
-    std::cout << "Average Waiting Time    : " << avg_wt / size << "ms" << '\n';
-    std::cout << "Average Response Time   : " << avg_rt / size << "ms" << '\n';
+    std::cout << "\n\n";
+    std::cout << "\t\tAverage Turn Around Time: " << avg_tat / size << "ms" << '\n';
+    std::cout << "\t\tAverage Waiting Time    : " << avg_wt / size << "ms" << '\n';
+    std::cout << "\t\tAverage Response Time   : " << avg_rt / size << "ms" << '\n';
 
+    std::cout << "\n\n";
 }
 
 int main(void) {
-    
-    std::ios_base::sync_with_stdio(false);
 
     int n;
     std::cout << "Enter number of processes: ";

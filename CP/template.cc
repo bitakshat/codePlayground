@@ -3,7 +3,7 @@
 #define lint long long int
 #define itr(a, b) for (int a = 0; a < b; a++)
 #define dbg(var) std::cout << (#var) << ": " << var << '\n'
-
+#define getType(var, nline) std::cout << typeid(var).name() << nline;
 
 int main(void) {
     std::ios_base::sync_with_stdio(false);
@@ -12,4 +12,3 @@ int main(void) {
 
     return 0;
 }
-
